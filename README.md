@@ -16,12 +16,16 @@ npm install
 
 **Start the application in development mode**
 ```sh
+npm run dev
+```
+To run webpack dev server. Static files are served from the `app-ww` folder, project JavaScript files are bundled.
+
+```sh
 npm start
 ```
 
-Open http://localhost:8080 in your browser.
+Open http://localhost:3000 in your browser.
 
-Static files are served from the `app-ww` folder, project JavaScript files are bundled.
 
 **When ready, build for production**
 ```
